@@ -1,0 +1,84 @@
+/* body {
+    background-image: url(../Programming/background.jpg);
+}
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*background*/
+#header {
+    background:darkgrey url(../Programming/img/deskwall.jpg) no-repeat fixed bottom right;
+    background-size: cover;
+    height: 400px;
+    width: 100%;   
+}
+
+#header h1 {
+    float: left;
+    color: white;
+    margin: 30px;
+    margin-right: 650px;
+    margin-left: 30px;
+    line-height: 60px;
+    height: 60px;
+}
+
+.daftar_artikel {
+    background-color: burlywood;
+}
+
+.judul_artikel{
+    /* font-family: sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: bold;
+    font-variant: small-caps;
+    font: style variant weight size/line-height family; */
+    font: italic small-caps bold 20px/30px sans-serif;
+
+}
+
+
+/* text */
+.isi_artikel{
+    color: darkkhaki;
+    text-decoration: underline;
+    text-transform: lowercase;
+    text-indent: 10px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    /* line-height: 30px; */
+}
+
+.a {
+    text-decoration: solid;
+    /* background-color: white; */
+    display : inline-block;
+    color:aliceblue;
+    /* visibility: hidden; */
+    line-height: 80px;
+    height: 60px;
+    width: 100px;
+    text-align: center;
+    /* margin: 0 10px 0 0;
+    padding: 10px;
+    border: 1px solid black; */
+    
+}
+a{
+    color:aqua;
+}
+
+
+a:hover {
+    color:honeydew;
+}
+
+#variasi_huruf {
+    font-weight: bold;
+    font-size: 30px;
+}
+

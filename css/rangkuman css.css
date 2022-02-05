@@ -1,0 +1,85 @@
+    - tag : p, a, div, h
+    - id : nama_id. ex : #header (id hanya bisa digunakan untuk satu elemen)
+    untuk bisa menyeleksi lebih dari satu elemen menggunakan class (div=class"daftar-artikel")
+    id class menggunakan tanda pagar (#header)
+    - class : .nama_kelas
+
+selector {
+    properti : nilai;
+}
+#header{
+    backround-color: black;
+}
+
+
+    *properti : background
+
+    *value
+    warna 
+    - disebutkan dalam bahasa inggris
+    - menggunakan kode hexam(diawali tanda #)
+    - menggunakan rgb (rgb(0, 100, 255))
+    ex : backround-color: rgb(77, 100, 255);
+
+
+    cara mengganti backround gambar
+    backround-image: url(../)
+    opsional, bisa dimasukkan ke body atau ke header
+
+    backround-repeat
+    misalkan gambarnya kecil, nanti akan diulang, bisa no repeat, repeat y/x
+    backround-repeat: no_repeat/ repeat y
+
+    backround-attachment : fixed/scroll;
+    fix, ketika di scroll tetap
+    scroll, ketika di scroll ikut berpindah.
+
+    background-position: top right;
+    untuk menempatkan posisi gambar backround
+
+    cara singkat untuk background
+    background: warna image repeat attachment position;
+    background: red url(../) no_repeat fixed top;
+    posisi : harus bottom/top, left/right 
+
+    mengatur size background agar memenuhi layar 
+    background-size: cover/contain;
+
+#bab komentar
+komentar pada css menggunakan /* bhbhd */
+
+#menggunakan class
+menggunakan titik
+    .isi-artikel
+        color: ;
+        text-decoration : underline; (untuk menghilangkan penulisan garis bawah pada link)
+        cara menuliskan : 
+        a{
+            text-decoration: none;
+        }
+        text-transform: lowercase/upercase/capitalize (setiap ganti kata besar semua);
+        text-indent: 10px; untuk menulis menjorok
+        letter-spacing: 10px; jarak antar tulisan/jarak antar huruf
+        word-spacing: 10px; jarak antar huruf
+
+    #bab font
+    .judul-artikel
+    font-family: arial;
+    font-style :italic;
+    font-size: ;
+    line-heigh: 30px; mengatur tinggi baris ketika di blok 
+    font-weight : ketebalan huruf (300px)/bold;
+    font-varian: small-caps;
+    cara menyingkat tulisan
+    font: style varian weight size/line-height family 
+    *variasi-huruf
+    span id untuk mengubah beberapa kata sesuai keinginan 
+    
+    dimensi
+    max-width
+    min-width
+        
+    h1 = blok elemen
+    link = in elemen
+
+
